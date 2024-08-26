@@ -1,0 +1,28 @@
+.root {
+    -fx-font-family: 'Circle Rounded';
+    -fx-padding: 10;
+}
+
+.button {
+    -fx-padding: 10 20 10 20;
+    -fx-background-color: #7362BC;
+    -fx-text-fill: aliceblue;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(gaussian, #333333, 3, 0.2, 0, 1);
+}
+
+.button:hover {
+    -fx-effect: dropshadow(gaussian, #333333, 5, 0.5, 0, 2);
+}
+
+.text-field {
+    -fx-padding: 5;
+    -fx-border-color: #7362BC;
+    -fx-border-width: 1;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-padding: 5;
+}
